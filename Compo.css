@@ -1,0 +1,23 @@
+
+.rom{
+    /* display: flex; */
+    /* grid-area: ; */
+    /* color: rgb(255, 119, 0); */
+    display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns of equal width */
+  gap: 16px; /* Adjust the gap between the grid items as needed */
+  padding: 16px; /* Optional padding for the container */
+
+  
+
+  background-color: #f0f0f0; /* Example background color for grid items */
+  padding: 20px; /* Adjust padding inside each item */
+  border: 1px solid #ddd; /* Optional border for styling */
+  text-align: center; /* Center text inside grid items */
+  justify-content: center;
+}
+
+
+
+
+
